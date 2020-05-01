@@ -1,0 +1,63 @@
+#topbar .social-links {
+    font-size: 18px;
+}
+
+/* #topbar .faicon-facebook {
+    color: #F08714;
+} */
+
+/* #topbar .faicon-facebook:hover {
+    color: #F08714;
+    background-color: none;
+}
+
+#topbar .faicon-youtube {
+    color: #F08714;
+} */
+
+.highlight {
+    display: inline;
+    /* background: #7B3D72; */
+    background-color: #F08714;
+
+    color: #fff;
+    padding: 2px;
+    word-wrap: break-word;
+}
+
+.highlight-shadow {
+    position: relative;
+    left: 10px;
+    padding-left: 0;
+    box-shadow: 10px 0 0 rgb(130, 228, 235), -10px 0 0 rgb(81, 210, 250);
+}
+
+/*
+Everything below is just for this demo
+*/
+
+
+.general-design p {
+    color: #C5C5C5;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+@media (max-width:600px) {
+    .general-design p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+.background {
+    /* background-color: #583064; */
+    background-color: #F08714;
+}
+
+
+
+a {
+    color: #FFF;
+}
